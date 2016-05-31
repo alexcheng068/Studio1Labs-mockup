@@ -27,9 +27,9 @@ public class SiderFragment extends Fragment {
     ListView slistview;
 
 
-    private int[] SImage = {R.drawable.photo,R.drawable.photo,R.drawable.photo};
+    private int[] SImage = {R.drawable.alphachart,R.drawable.photo,R.drawable.photo};
 
-    private String[] STitle ={"Tea &amp; Garlic Tost","Tea &amp; Garlic Tost","Tea &amp; Garlic Tost"};
+    private String[] STitle ={"Tea &amp; Garlic Tost"};
 
     private String[] SRupee = {"100 Rs","100 Rs","100 Rs "};
 

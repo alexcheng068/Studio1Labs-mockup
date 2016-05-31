@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="20dp"
+        android:id="@+id/linearLayout">
 
         <ImageView
             android:id="@+id/simage"
@@ -56,20 +57,41 @@
                     />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_weight="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-
-
-            <ImageView
-                android:layout_weight="1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/crossdf"
-                android:padding="8dp"
-                android:layout_marginTop="5dp"
-                android:background="@color/colorgreen"
-                />
-
+            </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sound"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignRight="@+id/edit_message"
+        android:layout_alignEnd="@+id/edit_message" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/light"
+        android:layout_below="@+id/edit_message"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button" />
+
+
 </RelativeLayout>
