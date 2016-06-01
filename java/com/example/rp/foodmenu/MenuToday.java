@@ -20,9 +20,9 @@ public class MenuToday extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout)findViewById(R.id.todaymenutablayout);
 
-        tabLayout.addTab(tabLayout.newTab().setText("MAIN"));
-        tabLayout.addTab(tabLayout.newTab().setText("SIDER"));
-        tabLayout.addTab(tabLayout.newTab().setText("DESSERTS"));
+        tabLayout.addTab(tabLayout.newTab().setText("SLEEP "));
+        tabLayout.addTab(tabLayout.newTab().setText("ALPHABETS"));
+        tabLayout.addTab(tabLayout.newTab().setText("MAT STATUS"));
 
 
         TodayMenuPagerAdapter myPagerAdapter = new TodayMenuPagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());

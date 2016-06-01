@@ -27,7 +27,7 @@ public class DessertFragment extends Fragment {
 
     private int[] DeImage = {R.drawable.washingmachine,R.drawable.mat,R.drawable.musictran};
 
-    private String[] DeTitle ={"Last washed","Mat Status","Sound"};
+    private String[] DeTitle ={"Last washed","Connection","Sound"};
 
     private String[] DeRupee = {"May 12, 2015","Active","ON"};
 

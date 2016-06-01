@@ -29,9 +29,9 @@ public class SiderFragment extends Fragment {
 
     private int[] SImage = {R.drawable.alphachart,R.drawable.photo,R.drawable.photo};
 
-    private String[] STitle ={"Tea &amp; Garlic Tost"};
+    private String[] STitle ={"Alphabet counts"};
 
-    private String[] SRupee = {"100 Rs","100 Rs","100 Rs "};
+    private String[] SRupee = {"past 10 days","100 Rs","100 Rs "};
 
 
     private ArrayList<Beanclasss> beanss;

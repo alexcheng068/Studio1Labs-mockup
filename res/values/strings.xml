@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodMenu</string>
+    <string name="app_name">Studio1Labs</string>
     <string name="hint">Enter a single character </string>
     <string name="sound">Sound </string>
     <string name="light">Light</string>
